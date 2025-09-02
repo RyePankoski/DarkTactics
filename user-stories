@@ -1,5 +1,5 @@
 Sprint 1:
-    9/2/2025
+    start: 9/2/2025
 
     As a user, I want to to be able to place a soldier from the tray onto the battlefield, so I can prepare my army.
     Rye
@@ -12,3 +12,7 @@ Sprint 1:
 
     As a user, I want to be able to see my current notoriety/currency, army, and upcoming battles.
     Simão
+
+    end: 9/9/2025
+
+Sprint 2:
