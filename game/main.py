@@ -5,7 +5,8 @@ import cProfile
 import pstats
 
 pygame.init()
-screen = pygame.display.set_mode(pygame.display.get_desktop_sizes()[0])
+screen = pygame.display.set_mode((1280, 720))  # windowed
+pygame.display.set_caption("Dark Tactics")
 clock = pygame.time.Clock()
 client = Client(screen, clock)
 FPS = 60

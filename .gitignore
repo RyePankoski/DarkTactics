@@ -1,0 +1,38 @@
+# python cache / compiled
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# profiling / debug
+*.prof
+*.profile
+*.pstats
+
+# pygame temp files (if you ever write screenshots, etc.)
+*.bmp
+*.png
