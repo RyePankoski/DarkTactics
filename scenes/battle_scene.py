@@ -11,7 +11,7 @@ class BattleScene:
         self.roster = roster
         self.character_tray = CharacterTray(self.roster, self.screen)
 
-    def run(self):
+    def run(self, events):
 
         self.character_tray.render()
 
