@@ -9,7 +9,7 @@ class BattleScene:
         self.clock = clock
         self.ui_font = pygame.font.SysFont('microsoftyahei', 20)
         self.roster = roster
-        self.character_tray = CharacterTray(self.roster, self.screen)
+        self.character_tray = CharacterTray()
 
     def run(self, events):
 
