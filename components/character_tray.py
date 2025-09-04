@@ -85,12 +85,10 @@ class CharacterTray:
             color = BRIGHT_BLUE if character == self.selected_character else BRIGHT_RED
             pygame.draw.circle(self.screen, color, (pos_x, pos_y), 25)
 
-        # Draw dragged character following mouse
         if self.dragging and self.selected_character:
             mouse_x, mouse_y = pygame.mouse.get_pos()
             pygame.draw.circle(self.screen, BRIGHT_GREEN, (mouse_x, mouse_y), 25)
 
-        # Draw placed character
         if self.character_placed_at:
             character = self.character_placed_at
             pygame.draw.circle(self.screen, YELLOW, (character.x, character.y), 25)

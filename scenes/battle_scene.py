@@ -28,14 +28,9 @@ class BattleScene:
 
     def collect_placed_units(self):
         if self.character_tray.character_placed_at:
-            # Add the character directly (not the return of collect_placed_character)
             self.units_on_battleground.append(self.character_tray.character_placed_at)
-
-            # Remove from roster
             if self.character_tray.character_placed_at in self.roster:
                 self.roster.remove(self.character_tray.character_placed_at)
-
-            # Clear the placement and update tray
             self.character_tray.character_placed_at = None
 
     def render(self):
